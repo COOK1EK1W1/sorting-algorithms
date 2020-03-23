@@ -31,7 +31,7 @@ def solve1():
                 screen.rect(i, items[i] , 1, width - items[i])
                 screen.rect(i + 1, items[i + 1] , 1, width - items[i + 1])
 
-screen.add_button(0, width, 50, 50, func=randomize)
-screen.add_button(50, width, 50, 50, func=solve1)
+screen.add_button(0, width, 50, 50, func=randomize, colour=(255, 0, 0))
+screen.add_button(50, width, 50, 50, func=solve1, colour=(0, 255, 0))
 
 screen.run()
